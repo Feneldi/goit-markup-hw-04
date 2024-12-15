@@ -1,0 +1,364 @@
+/* 
+font-family: "Roboto",serif;
+font-family: "Raleway",serif; 
+*/
+
+/* .container {
+    max-width:
+    padding-left:
+    padding-right:
+    margin-left:
+    margin-right:
+} 
+*/
+
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+
+/* reset */
+
+ul, ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block
+}
+
+/* common */
+
+.container {
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+/* header */
+
+.header {
+    background: #fff;
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.container-header {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
+.header-address {
+    font-style: normal;
+    margin-left: auto;
+}
+
+.header-nav-list, .header-address-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.header-logo {
+    padding: 24px 0;
+    margin-right: 76px;
+}
+
+.header-logo .header-logo-part {
+    color: #2e2f42;
+}
+
+.header-nav-list-item-link:hover,
+.header-nav-list-item-link:focus,
+.header-address-list-item-link:hover,
+.header-address-list-item-link:focus {
+    color: #404bbf;
+}
+
+.header-nav-list-item-link {
+    display: block;
+    padding: 24px 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.header-address-list-item-link {
+    display: block;
+    padding: 24px 0;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* ---------- Footer ---------- */
+
+.footer {
+    background: #2e2f42;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.container-footer {
+}
+
+.footer-logo {
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
+.footer-logo-part {
+    color: #f4f4fd;
+}
+
+.footer-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+    max-width: 264px;
+}
+
+/* ---------- Секция №1 ---------- */
+
+.main-section-one {
+    background-color:#2e2f42;
+    padding-top: 188px;
+    padding-bottom: 188px;
+}
+
+.container-section-one {
+}
+
+.main-section-one-h_one {
+    display: block;
+    max-width: 496px;
+    margin: auto;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 48px;
+}
+
+.main-section-one-button {
+    display: block;
+    min-width: 169px;
+    margin: auto;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    background-color: #4d5ae5;
+    cursor: pointer;
+}
+
+.main-section-one-button:hover,
+.main-section-one-button:focus {
+    background-color: #404BBF
+}
+
+/* ---------- Секция №2 ---------- */
+
+/* .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+} */
+
+.main-section-two {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.container-section-two {
+}
+
+.main-section-two-h_two {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.main-section-two-list {
+    display: flex;
+    gap: 24px;
+}
+
+.main-section-two-list-item {
+    width: calc((100% - 72px) / 4);
+}
+
+.main-section-two-list-item-h_three {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+}
+
+.main-section-two-list-item-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/* ---------- Секция №3 ---------- */
+
+.main-section-three {
+    background-color: #F4F4FD;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.container-section-three {
+}
+
+.main-section-three-h_two {
+    margin-bottom: 72px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    text-transform: capitalize
+}
+
+.main-section-three-list {
+    display: flex;
+    gap: 24px;
+}
+
+.main-section-three-list-item {
+    background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.container-section-three-person {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.main-section-three-list-item-h_three {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    margin-bottom: 8px;
+}
+
+.main-section-three-list-item-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
+}
+
+/* ---------- Секция №4 ---------- */
+
+.main-section-four {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.container .container-section-four {
+
+}
+
+.main-section-four-h_two {
+    margin-bottom: 72px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    text-transform: capitalize
+}
+
+.main-section-four-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
+.main-section-four-list-item {
+    width: calc((100% - 48px) / 3);
+}
+
+.container-section-four-portfolio {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+
+.main-section-four-list-item-h_three {
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.main-section-four-list-item-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
