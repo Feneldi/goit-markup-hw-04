@@ -65,15 +65,11 @@ img {
 .container-header {
   display: flex;
   align-items: center;
-  position: relative;
-  color: #404bbf;
 }
 
 .header-nav {
   display: flex;
   align-items: center;
-  position: relative;
-  color: #404bbf;
 }
 
 .header-address {
@@ -105,6 +101,12 @@ img {
 
 .header-logo .header-logo-part {
   color: #2e2f42;
+}
+
+.header-nav-list-item:hover,
+.header-nav-list-item:focus {
+  position: relative;
+  color: #404bbf;
 }
 
 .header-nav-list-item-link:hover,
@@ -423,6 +425,12 @@ img {
 }
 
 .container-footer {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer-logo_and_p {
+  margin-right: 120px;
 }
 
 .container-social-media {
