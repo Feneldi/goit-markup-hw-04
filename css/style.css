@@ -356,8 +356,7 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-list-link:hover,
-.social-list-link:focus {
+.social-list-link {
   background-color: #404bbf;
 }
 
@@ -447,14 +446,20 @@ img {
 }
 
 .footer-text {
+  font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #f4f4fd;
+  color: #ffffff;
   max-width: 264px;
+  margin-bottom: 16px;
 }
 
 .footer-social-list {
   display: flex;
-  column-gap: 16px;
-  padding-top: 16px;
+  gap: 16px;
+}
+
+.footer-social-list-link:hover,
+.footer-social-list-link:focus {
+  background-color: #31d0aa;
 }
