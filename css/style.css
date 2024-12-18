@@ -383,8 +383,8 @@ img {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.main-section-four-list-item-link:hover .overlay-text,
-.main-section-four-list-item-link:focus .overlay-text {
+.main-section-four-list-item:hover .overlay-text,
+.main-section-four-list-item:focus .overlay-text {
   transform: translateY(0);
 }
 
