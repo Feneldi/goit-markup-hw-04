@@ -105,7 +105,6 @@ img {
 
 .header-nav-list-item:hover,
 .header-nav-list-item:focus {
-  position: relative;
   color: #404bbf;
 }
 
@@ -114,6 +113,22 @@ img {
 .header-address-list-item-link:hover,
 .header-address-list-item-link:focus {
   color: #404bbf;
+}
+
+.header-nav-list-item {
+  position: relative;
+  color: #404bbf;
+}
+
+.header-nav-list-item::after {
+  content: '';
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 4px;
+  background-color: #404bbf;
+  border-radius: 2px;
 }
 
 .header-nav-list-item-link {
